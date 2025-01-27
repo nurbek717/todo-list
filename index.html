@@ -3,7 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>
+          To-Do List
+          <img src="./imges/Снимок экрана 2025-01-25 в 16.18.08.png" alt="" />
+        </h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Text yozing!" />
+          <button onclick="addTesk()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="cheket">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
 </html>
